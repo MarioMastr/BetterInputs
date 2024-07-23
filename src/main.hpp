@@ -1,3 +1,5 @@
+#pragma once
+
 #include <string>
 #include <string_view>
 
@@ -107,7 +109,7 @@ struct BetterCCIMEDispatcher : Modify<BetterCCIMEDispatcher, CCIMEDispatcher> {
 struct BetterCCEGLView : Modify<BetterCCEGLView, CCEGLView> {
     void onGLFWKeyCallback(GLFWwindow *window, int key, int scancode, int action, int mods);
     void onGLFWMouseCallBack(GLFWwindow *window, int button, int action, int mods);
-}
+};
 
 #elif defined(GEODE_IS_MACOS)
 
