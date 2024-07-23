@@ -55,7 +55,7 @@ struct BetterTextInputNode : Modify<BetterTextInputNode, CCTextInputNode> {
     void onRightArrowKey(bool isCtrl, bool isShift);
     void onLeftArrowKey(bool isCtrl, bool isShift);
     void onHomeKey(bool isShift);
-    void onEnKey(bool isShift);
+    void onEndKey(bool isShift);
     void onDelete(bool isCtrl, bool isDel);
     void onCopy();
     void onPaste();
