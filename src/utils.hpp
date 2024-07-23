@@ -1,10 +1,15 @@
 #include <string>
 #include <string_view>
 
+#include <Geode/utils/cocos.hpp>
+#include <Geode/loader/Mod.hpp>
+
 #include <Geode/cocos/robtop/glfw/glfw3.h>
 
 #ifdef GEODE_IS_WINDOWS
 #include <WinUser.h> // virtual keys
+#elif defined(GEODE_IS_MACOS)
+#include "mac/touch.hpp"
 #endif
 
 #include <Geode/cocos/cocoa/CCGeometry.h>

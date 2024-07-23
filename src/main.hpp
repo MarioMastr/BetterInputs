@@ -1,9 +1,4 @@
-#pragma once
-
 #include <string>
-#include <string_view>
-
-#include <Geode/utils/cocos.hpp>
 
 #include <Geode/modify/CCTextInputNode.hpp>
 #include <Geode/modify/CCIMEDispatcher.hpp>
@@ -17,8 +12,6 @@
 #elif defined(GEODE_IS_MACOS)
 #include <Geode/modify/CCKeyboardDispatcher.hpp>
 #include <Geode/modify/CCTouchDispatcher.hpp>
-
-#include "types/TouchMessageType.hpp"
 #endif
 
 #include <Geode/modify/CCTextFieldTTF.hpp>

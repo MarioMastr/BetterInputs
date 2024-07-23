@@ -2,8 +2,7 @@
 
 #include <Geode/cocos/cocoa/CCGeometry.h>
 
-struct CharNode
-{
+struct CharNode {
     cocos2d::CCPoint position;
     cocos2d::CCPoint centerPosition;
     float widthFromCenter;

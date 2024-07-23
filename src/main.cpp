@@ -1,5 +1,11 @@
 #include "main.hpp"
 
+#include <string_view>
+
+#if defined(GEODE_IS_MACOS)
+#include "types/TouchMessageType.hpp"
+#endif
+
 using namespace geode::prelude;
 
 BetterTextInputNode *g_selectedInput = nullptr;
