@@ -1,23 +1,26 @@
 {
     "geode": "3.3.0",
     "gd": {
-        "win": "2.206"
+        "win": "2.206",
+        "mac": "2.206"
     },
     "version": "v4.2.0-beta.1",
     "id": "spaghettdev.betterinputs",
     "name": "BetterInputs",
     "developer": "SpaghettDev",
     "description": "Makes inputs behave like on Windows (text highlighting, Ctrl+A, Ctrl+Arrow hotkeys, etc...)",
-    "tags": ["enhancement"],
+    "tags": [
+        "enhancement"
+    ],
     "repository": "https://github.com/SpaghettDev/BetterInputs",
-	"links": {
-		"community": "https://discord.gg/3bShQb6Jz3",
-		"source": "https://github.com/SpaghettDev/BetterInputs"
-	},
-	"issues": {
-		"info": "Report any bugs/suggestions here.",
-		"url": "https://github.com/SpaghettDev/BetterInputs/issues"
-	},
+    "links": {
+        "community": "https://discord.gg/3bShQb6Jz3",
+        "source": "https://github.com/SpaghettDev/BetterInputs"
+    },
+    "issues": {
+        "info": "Report any bugs/suggestions here.",
+        "url": "https://github.com/SpaghettDev/BetterInputs/issues"
+    },
     "settings": {
         "auto-deselect": {
             "type": "bool",
